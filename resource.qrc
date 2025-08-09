@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>icons/bot.png</file>
+    <file>icons/human.png</file>
+    <file>icons/main_icon.ico</file>
+    <file>icons/circle.svg</file>
+    <file>icons/close.svg</file>
+    <file>icons/main.ico</file>
+    <file>icons/restart.svg</file>
+    <file>icons/window_icon.ico</file>
+  </qresource>
+</RCC>
