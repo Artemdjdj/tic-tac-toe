@@ -18,8 +18,9 @@ class Window(QMainWindow):
         self.ui.setupUi(self)
         self.area = [[button() for j in range(3)] for i in range(3)]
         self.type_of_tag = "close"
-        self.icon_close = QIcon(resource_path("icons/close.svg"))
-        self.icon_circle =QIcon(resource_path("icons/circle.svg"))
+        #ubuntu needs to write directory tic-tac-toe/путь
+        self.icon_close = QIcon(resource_path("tic-tac-toe/icons/close.svg"))
+        self.icon_circle =QIcon(resource_path("tic-tac-toe/icons/circle.svg"))
         self.setWindowIcon(QIcon(resource_path("icons/main.ico")))
         self.list_of_buttons = [
             self.ui.button11, self.ui.button12, self.ui.button13,
