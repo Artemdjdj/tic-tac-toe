@@ -1,13 +1,3 @@
-# -*- coding: utf-8 -*-
-
-################################################################################
-## Form generated from reading UI file 'main.ui'
-##
-## Created by: Qt User Interface Compiler version 6.9.0
-##
-## WARNING! All changes made in this file will be lost when recompiling UI file!
-################################################################################
-
 from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
     QMetaObject, QObject, QPoint, QRect,
     QSize, QTime, QUrl, Qt)
@@ -283,7 +273,7 @@ class Ui_MainWindow(object):
         self.tabWidget.setObjectName(u"tabWidget")
         self.tabWidget.setMinimumSize(QSize(300, 300))
         self.tabWidget.setMaximumSize(QSize(800, 800))
-        self.tabWidget.setStyleSheet(u"")
+        self.tabWidget.setStyleSheet(u"border:none;")
         self.tab = QWidget()
         self.tab.setObjectName(u"tab")
         self.gridLayout = QGridLayout(self.tab)
@@ -508,4 +498,3 @@ class Ui_MainWindow(object):
 "<p style=\"-qt-paragraph-type:empty; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;\"><br /></p></body></html>", None))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_2), QCoreApplication.translate("MainWindow", u"about", None))
     # retranslateUi
-

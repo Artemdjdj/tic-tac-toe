@@ -298,7 +298,11 @@ class Window(QMainWindow):
         self.ui.button_restart.setAttribute(Qt.WA_TransparentForMouseEvents, False)
 
     def get_in_page_about(self):
-        self.ui.tabWidget.setCurrentWidget(self.ui.tab_2)
+        if self.ui.tabWidget.currentIndex() == 0:
+            self.ui.tabWidget.setCurrentWidget(self.ui.tab_2)
+        else:
+            self.ui.tabWidget.setCurrentWidget(self.ui.tab)
+
     def get_in_page_play(self):
         self.ui.tabWidget.setCurrentWidget(self.ui.tab)
         self.play_game_with_friends_start_settings()
