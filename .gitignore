@@ -1,0 +1,7 @@
+__pycache__/
+.idea/
+build/
+dist/
+main.ui
+resource.qrc
+tic-tac-toe.spec
